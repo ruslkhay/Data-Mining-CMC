@@ -1,0 +1,26 @@
+[project]
+name = "DataMiningCourse"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Ruslan Khaydarpashich", email = "h.ruslan2000@yandex.ru"},
+]
+dependencies = [
+    "numpy",
+    "pandas",
+    "mlxtend",
+    "matplotlib",
+    "networkx",
+    "scikit-learn",
+    "seaborn",
+    "minisom",
+    "ipykernel",
+    "pre-commit"
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false

@@ -15,7 +15,9 @@ dependencies = [
     "seaborn",
     "minisom",
     "ipykernel",
-    "pre-commit"
+    "pre-commit",
+    "kmedoids",
+    # "scikit-learn-extra",
 ]
 requires-python = "==3.12.*"
 readme = "README.md"
